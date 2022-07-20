@@ -1,0 +1,23 @@
+{
+  "name": "WCPERestAPI",
+  "version": "2022.7.20",
+  "description": "WCPE REST API Documentation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "apidoc -i ./../wcpe-webcast-api-plugin -o . -e vendor --private true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesternCPE/WCPE-Webcast-API-Documentation.git"
+  },
+  "author": "Bradford Knowlton Jr.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/WesternCPE/WCPE-Webcast-API-Documentation/issues"
+  },
+  "homepage": "https://westerncpe.github.io/WCPE-Webcast-API-Documentation/",
+  "dependencies": {
+    "apidoc": "^0.51.0"
+  }
+}
